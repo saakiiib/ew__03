@@ -8,13 +8,13 @@ class ProfileController extends Controller
 {
     public function index($id)
     {
-        $nameVariable = "Donald Trump";
-        $ageVariable = "75";
+        $name = "Donal Trump";
+        $age = "75";
 
         $data = [
             'id' => $id,
-            'name' => $nameVariable,
-            'age' => $ageVariable,
+            'name' => $name,
+            'age' => $age,
         ];
 
         $name = 'access_token';
